@@ -1,0 +1,3 @@
+s = 0;
+for(n=1,8e7,n;m = n*n+(n+1)*(n+1);if(m < 5e15 && isprime(m),s ++))
+s

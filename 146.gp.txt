@@ -1,0 +1,7 @@
+s = 0; \
+for (n = 1, 150000000, n += 9; \
+if (isprime(n * n + 1) && isprime(n * n + 3) && isprime(n * n + 7) \
+&& isprime(n * n + 9) && isprime(n * n + 13) && isprime(n * n + 27) \
+&& !isprime(n * n + 11) && !isprime(n * n + 17) && !isprime(n * n + 19) && !isprime(n * n + 21) \
+&& !isprime(n * n + 23), s += n)) \
+s
